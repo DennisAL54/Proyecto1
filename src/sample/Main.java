@@ -15,7 +15,6 @@ public class Main extends Application {
         Parent root = fxmlLoader.load();
         Controller controller = (Controller) fxmlLoader.getController();
         controller.Mostrar();
-
         primaryStage.setTitle("My New Circuit");
         primaryStage.setScene(new Scene(root, 1000, 700));
         primaryStage.show();
