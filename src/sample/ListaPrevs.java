@@ -3,6 +3,7 @@ package sample;
 public class ListaPrevs {
 
     NodoP head;
+
     public void add(boolean Data){
 
         NodoP prev = new NodoP();
