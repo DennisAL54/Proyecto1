@@ -1,24 +1,18 @@
 package sample;
 
 public class ListaPrevs {
+    public Compuerta head;
+    public Compuerta tail;
+    public ListaPrevs(){
+        head = null;
+        tail = null;
 
-    NodoP head;
-
+    }
     public void add(boolean Data){
+        head = new Compuerta(Data, head, null);
+        if(tail==null){
+            tail = head;
 
-        NodoP prev = new NodoP();
-        prev.Data = Data;
-        prev.next = null;
-
-        if (head == null){
-            head = prev;
-        }
-        else{
-            NodoP n = head;
-            while(n.next != null){
-                n = n.next;
-            }
-            n.next = prev;
         }
     }
 

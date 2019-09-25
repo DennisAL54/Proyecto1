@@ -4,6 +4,7 @@ public class Compuerta {
 
     public boolean DataS;
     Compuerta next;
+    Compuerta next2;
     public ListaPrevs Anteriores;
 
     public Compuerta(boolean ValorV){

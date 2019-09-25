@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sample/ListaCompuertas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/AND.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/AND.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Compuerta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Compuerta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/ListaCompuertas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ListaCompuertas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/ListaPrevs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ListaPrevs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/NAND.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/NAND.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/NOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/NOR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/NOT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/NOT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/OR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/OR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/XNOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/XNOR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/XOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/XOR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/NodoP.java" beforeDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,16 +62,17 @@
     <session id="-270694481">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.22" value="2" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.44" value="2" />
+          <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.46" value="2" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.55" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -99,12 +94,12 @@
         <counts>
           <entry key="dummy" value="25" />
           <entry key="fxml" value="218" />
-          <entry key="java" value="3526" />
+          <entry key="java" value="4518" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3526" />
+          <entry key="JAVA" value="4518" />
           <entry key="PLAIN_TEXT" value="25" />
           <entry key="XML" value="218" />
         </counts>
@@ -119,7 +114,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="204">
               <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -131,17 +126,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/ListaPrevs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/NodoP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+            <state relative-caret-position="170">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -149,21 +135,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Compuerta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            <state relative-caret-position="102">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
               <folding>
                 <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/ListaCompuertas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="408">
+              <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+              <folding>
+                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -195,9 +187,6 @@
         <option value="$PROJECT_DIR$/src/sample/Prevs.java" />
         <option value="$PROJECT_DIR$/src/sample/Nodo.java" />
         <option value="$PROJECT_DIR$/src/sample/NodoP.java" />
-        <option value="$PROJECT_DIR$/src/sample/ListaCompuertas.java" />
-        <option value="$PROJECT_DIR$/src/sample/ListaPrevs.java" />
-        <option value="$PROJECT_DIR$/src/sample/Compuerta.java" />
         <option value="$PROJECT_DIR$/src/sample/AND.java" />
         <option value="$PROJECT_DIR$/src/sample/NAND.java" />
         <option value="$PROJECT_DIR$/src/sample/NOR.java" />
@@ -205,6 +194,9 @@
         <option value="$PROJECT_DIR$/src/sample/OR.java" />
         <option value="$PROJECT_DIR$/src/sample/XNOR.java" />
         <option value="$PROJECT_DIR$/src/sample/XOR.java" />
+        <option value="$PROJECT_DIR$/src/sample/ListaPrevs.java" />
+        <option value="$PROJECT_DIR$/src/sample/Compuerta.java" />
+        <option value="$PROJECT_DIR$/src/sample/ListaCompuertas.java" />
       </list>
     </option>
   </component>
@@ -230,7 +222,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -254,6 +245,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,7 +257,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569274214110" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569384394469" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/openjfx-11.0.2_windows-x64_bin-sdk.zip!/" />
     <property name="project.structure.last.edited" value="Project" />
@@ -378,7 +370,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.30484116" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.30937973" />
       <window_info id="Structure" order="1" weight="0.24962293" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -430,12 +422,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pantalla.fxml" />
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="43" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/application/Application.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -445,27 +437,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Pantalla.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="116" selection-start-line="29" selection-start-column="116" selection-end-line="29" selection-end-column="116" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -516,13 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ListaCompuertas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/XNOR.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -545,24 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ListaPrevs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Compuerta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding>
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/XOR.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -574,10 +531,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/NodoP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Compuerta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ListaPrevs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ListaCompuertas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+          <folding>
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
