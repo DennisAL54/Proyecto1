@@ -3,18 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/AND.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/AND.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Compuerta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Compuerta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/ListaCompuertas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ListaCompuertas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/ListaPrevs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ListaPrevs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/NAND.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/NAND.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/NOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/NOR.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/NOT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/NOT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/OR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/OR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/XNOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/XNOR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/XOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/XOR.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,7 +76,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="fxml" value="6" />
-          <entry key="java" value="39" />
+          <entry key="java" value="40" />
           <entry key="jpg" value="1" />
           <entry key="png" value="1" />
         </counts>
@@ -95,7 +84,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="39" />
+          <entry key="JAVA" value="40" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
@@ -103,12 +92,12 @@
         <counts>
           <entry key="dummy" value="25" />
           <entry key="fxml" value="218" />
-          <entry key="java" value="6232" />
+          <entry key="java" value="6285" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6232" />
+          <entry key="JAVA" value="6285" />
           <entry key="PLAIN_TEXT" value="25" />
           <entry key="XML" value="218" />
         </counts>
@@ -128,31 +117,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#768#769#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/XNOR.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="75" selection-start-line="3" selection-start-column="75" selection-end-line="3" selection-end-column="75" />
-              <folding>
-                <element signature="e#149#150#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/XOR.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="100" selection-start-line="2" selection-start-column="100" selection-end-line="2" selection-end-column="100" />
-              <folding>
-                <element signature="e#112#113#0" expanded="true" />
-                <element signature="e#147#148#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -187,6 +151,19 @@
               <folding>
                 <element signature="e#181#182#0" expanded="true" />
                 <element signature="e#221#222#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/NOT.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding>
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -238,10 +215,10 @@
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/sample/NAND.java" />
         <option value="$PROJECT_DIR$/src/sample/NOR.java" />
-        <option value="$PROJECT_DIR$/src/sample/NOT.java" />
         <option value="$PROJECT_DIR$/src/sample/OR.java" />
         <option value="$PROJECT_DIR$/src/sample/XNOR.java" />
         <option value="$PROJECT_DIR$/src/sample/XOR.java" />
+        <option value="$PROJECT_DIR$/src/sample/NOT.java" />
       </list>
     </option>
   </component>
@@ -302,7 +279,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569468715275" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569475174013" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/openjfx-11.0.2_windows-x64_bin-sdk.zip!/" />
     <property name="project.structure.last.edited" value="Project" />
@@ -490,45 +467,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/NodoP.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/ListaCompuertas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding>
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Compuerta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="104" selection-start-line="12" selection-start-column="104" selection-end-line="12" selection-end-column="104" />
-          <folding>
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ListaPrevs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="29" column="92" selection-start-line="29" selection-start-column="92" selection-end-line="29" selection-end-column="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/NAND.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -546,16 +484,6 @@
           <folding>
             <element signature="e#176#177#0" expanded="true" />
             <element signature="e#226#227#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/NOT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="73" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
-          <folding>
-            <element signature="e#147#148#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -580,13 +508,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/XOR.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+        <state relative-caret-position="34">
+          <caret line="2" column="100" selection-start-line="2" selection-start-column="100" selection-end-line="2" selection-end-column="100" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -601,13 +529,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/XOR.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="100" selection-start-line="2" selection-start-column="100" selection-end-line="2" selection-end-column="100" />
+        <state relative-caret-position="391">
+          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
           <folding>
-            <element signature="e#112#113#0" expanded="true" />
-            <element signature="e#147#148#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ListaPrevs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="29" column="92" selection-start-line="29" selection-start-column="92" selection-end-line="29" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Compuerta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="104" selection-start-line="12" selection-start-column="104" selection-end-line="12" selection-end-column="104" />
+          <folding>
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ListaCompuertas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/NOT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
           </folding>
         </state>
       </provider>
