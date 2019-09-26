@@ -4,10 +4,10 @@ import javafx.fxml.FXML;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
-public class Controller {
+public class Controller { // Clase controller (encargada de manejaer el fxml con la pantalla)
 
     @FXML
-    private ImageView image1;
+    private ImageView image1; //imageviews que contienen las imagenes de las compuertas
 
     @FXML
     private ImageView image2;
@@ -27,7 +27,7 @@ public class Controller {
     @FXML
     private ImageView image7;
 
-    public void Mostrar(){
+    public void Mostrar(){ // metodo que permite mostrar la ventana de inicio y las imagenes
 
         Image imagen1 = new Image("/AND.png");
         Image imagen2 = new Image("/NAND.png");

@@ -14,6 +14,7 @@ public class ListaCompuertas {
     public ListaCompuertas(){
         head = tail = null;
     }
+
     public boolean vacio(){
         return head==null;
     }
