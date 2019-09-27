@@ -19,10 +19,11 @@ public class ListaCompuertas {
         return head==null;
     }
     public void AñadirFinal(boolean d){
+
         if(!vacio()){
             ListaPrevs listaprevs = new ListaPrevs();
             listaprevs.add(tail.DataS);
-            tail = new Compuerta(d, null, listaprevs);
+            tail = new Compuerta(d, null,null, listaprevs);
             tail.Anteriores.head.next = tail;
 
         }
