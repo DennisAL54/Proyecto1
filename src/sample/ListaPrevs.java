@@ -49,7 +49,7 @@ public class ListaPrevs {//Lista de compuertas previas (hecho para cuando se tie
         return HayT;
     }
 
-    public boolean CompararEntradas(){
+    public boolean CompararEntradas(){//Se asegura que todas las entradas sean iguales
         Compuerta Ref1 = head;
         Compuerta Ref2 = head.next2;
         boolean TDif;

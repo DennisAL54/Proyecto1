@@ -18,6 +18,7 @@ public class Main extends Application { //Clase main con su respectivo metodo
         primaryStage.setTitle("My New Circuit"); // le pone titulo a la ventana
         primaryStage.setScene(new Scene(root, 1000, 700)); //ajusta el tamaño
         primaryStage.show();//muestra el resultado
+
     }
 
 
