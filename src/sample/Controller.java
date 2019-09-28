@@ -5,7 +5,6 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.event.EventHandler;
 import javafx.scene.Cursor;
-import javafx.scene.Group;
 import javafx.scene.input.MouseEvent;
 
 
@@ -53,12 +52,29 @@ public class Controller{ // Clase controller (encargada de manejaer el fxml con 
         image7.setImage(imagen7);
 
         image1.setCursor(Cursor.HAND);
-        image1.setOnMousePressed(imageOnMousePressedEventHandler);
-        image1.setOnMouseDragged(imageOnMouseDraggedEventHandler);
-
+        image1.setOnMousePressed(Agarrar);
+        image1.setOnMouseDragged(Arrastrar);
+        image2.setCursor(Cursor.HAND);
+        image2.setOnMousePressed(Agarrar);
+        image2.setOnMouseDragged(Arrastrar);
+        image3.setCursor(Cursor.HAND);
+        image3.setOnMousePressed(Agarrar);
+        image3.setOnMouseDragged(Arrastrar);
+        image4.setCursor(Cursor.HAND);
+        image4.setOnMousePressed(Agarrar);
+        image4.setOnMouseDragged(Arrastrar);
+        image5.setCursor(Cursor.HAND);
+        image5.setOnMousePressed(Agarrar);
+        image5.setOnMouseDragged(Arrastrar);
+        image6.setCursor(Cursor.HAND);
+        image6.setOnMousePressed(Agarrar);
+        image6.setOnMouseDragged(Arrastrar);
+        image7.setCursor(Cursor.HAND);
+        image7.setOnMousePressed(Agarrar);
+        image7.setOnMouseDragged(Arrastrar);
 
     }
-    EventHandler<MouseEvent> imageOnMousePressedEventHandler =
+    EventHandler<MouseEvent> Agarrar =
             new EventHandler<MouseEvent>() {
 
                 @Override
@@ -69,7 +85,7 @@ public class Controller{ // Clase controller (encargada de manejaer el fxml con 
                     orgTranslateY = ((ImageView)(t.getSource())).getTranslateY();
                 }
             };
-    EventHandler<MouseEvent> imageOnMouseDraggedEventHandler =
+    EventHandler<MouseEvent> Arrastrar =
             new EventHandler<MouseEvent>() {
 
                 @Override

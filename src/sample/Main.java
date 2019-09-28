@@ -11,7 +11,7 @@ public class Main extends Application { //Clase main con su respectivo metodo
     @Override
     public void start(Stage primaryStage) throws Exception{// metodo de inicio
         FXMLLoader fxmlLoader = new FXMLLoader(); //Carga el fxml
-        fxmlLoader.setLocation(getClass().getResource("Pantalla.fxml")); // se encarga de llamar el archivo
+        fxmlLoader.setLocation(getClass().getResource("Pantalla2.fxml")); // se encarga de llamar el archivo
         Parent root = fxmlLoader.load();
         Controller controller = (Controller) fxmlLoader.getController();// llama al controller
         controller.Mostrar(); // llama al metodo mostrar

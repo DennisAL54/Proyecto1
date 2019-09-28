@@ -26,13 +26,13 @@
                       <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                            <children>
                               <Button layoutX="90.0" layoutY="600.0" mnemonicParsing="false" text="Calcular" />
-                              <ImageView fx:id="image1" fitHeight="80.0" fitWidth="100.0" layoutX="90.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
-                              <ImageView fx:id="image2" fitHeight="53.0" fitWidth="74.0" layoutX="90.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true" />
-                              <ImageView fx:id="image3" fitHeight="53.0" fitWidth="74.0" layoutX="90.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true" />
-                              <ImageView fx:id="image4" fitHeight="53.0" fitWidth="74.0" layoutX="90.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true" />
-                              <ImageView fx:id="image5" fitHeight="53.0" fitWidth="74.0" layoutX="90.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true" />
-                              <ImageView fx:id="image6" fitHeight="53.0" fitWidth="74.0" layoutX="90.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true" />
-                              <ImageView fx:id="image7" fitHeight="53.0" fitWidth="74.0" layoutX="90.0" layoutY="478.0" pickOnBounds="true" preserveRatio="true" />
+                              <ImageView fx:id="image1" fitHeight="80.0" fitWidth="100.0" layoutX="533.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+                              <ImageView fx:id="image2" fitHeight="53.0" fitWidth="74.0" layoutX="533.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true" />
+                              <ImageView fx:id="image3" fitHeight="53.0" fitWidth="74.0" layoutX="533.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true" />
+                              <ImageView fx:id="image4" fitHeight="53.0" fitWidth="74.0" layoutX="533.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true" />
+                              <ImageView fx:id="image5" fitHeight="53.0" fitWidth="74.0" layoutX="533.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true" />
+                              <ImageView fx:id="image6" fitHeight="53.0" fitWidth="74.0" layoutX="533.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true" />
+                              <ImageView fx:id="image7" fitHeight="53.0" fitWidth="74.0" layoutX="533.0" layoutY="478.0" pickOnBounds="true" preserveRatio="true" />
                            </children>
                         </AnchorPane>
                     </content>
