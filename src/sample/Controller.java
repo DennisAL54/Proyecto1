@@ -35,7 +35,7 @@ public class Controller{ // Clase controller (encargada de manejaer el fxml con 
 
     public void Mostrar(){ // metodo que permite mostrar la ventana de inicio y las imagenes
 
-        Image imagen1 = new Image("/AND.png");
+        Image imagen1 = new Image("/AND.png"); //Se crean imagenes y se les asigna un archivo
         Image imagen2 = new Image("/NAND.png");
         Image imagen3 = new Image("/NOR.png");
         Image imagen4 = new Image("/NOT.png");
@@ -43,7 +43,7 @@ public class Controller{ // Clase controller (encargada de manejaer el fxml con 
         Image imagen6 = new Image("/XNOR.png");
         Image imagen7 = new Image("/XOR.png");
 
-        image1.setImage(imagen1);
+        image1.setImage(imagen1);//De esta forma se le añaden las imagenes al imageview
         image2.setImage(imagen2);
         image3.setImage(imagen3);
         image4.setImage(imagen4);
@@ -51,7 +51,7 @@ public class Controller{ // Clase controller (encargada de manejaer el fxml con 
         image6.setImage(imagen6);
         image7.setImage(imagen7);
 
-        image1.setCursor(Cursor.HAND);
+        image1.setCursor(Cursor.HAND); //Con esto se le permite al mouse reconocer y agarrar los imageviews a voluntad
         image1.setOnMousePressed(Agarrar);
         image1.setOnMouseDragged(Arrastrar);
         image2.setCursor(Cursor.HAND);
@@ -74,7 +74,7 @@ public class Controller{ // Clase controller (encargada de manejaer el fxml con 
         image7.setOnMouseDragged(Arrastrar);
 
     }
-    EventHandler<MouseEvent> Agarrar =
+    EventHandler<MouseEvent> Agarrar = // metodo agarrar para que el mouse pueda seleccionar la imagen
             new EventHandler<MouseEvent>() {
 
                 @Override
@@ -85,7 +85,7 @@ public class Controller{ // Clase controller (encargada de manejaer el fxml con 
                     orgTranslateY = ((ImageView)(t.getSource())).getTranslateY();
                 }
             };
-    EventHandler<MouseEvent> Arrastrar =
+    EventHandler<MouseEvent> Arrastrar = //metodo arrastrar para que el mouse pueda arrastrar
             new EventHandler<MouseEvent>() {
 
                 @Override

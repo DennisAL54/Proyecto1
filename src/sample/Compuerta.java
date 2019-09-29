@@ -3,19 +3,21 @@ package sample;
 public class Compuerta { //Creación de la clase compuerta como un nodo
 
     public boolean DataS; //Datos necesarios tales como el valor de verdad y las compuerts siguiente
-    Compuerta next;
+    Compuerta next; // Se necesitan 2 next, debido a que los nodos anteriores se manejan con una lista enlazada, la cual requiere su propio next
     Compuerta next2;
+    Compuerta prev; // ya que la compuerta not solo puede tener 1 prev, ese prev se representa como 1 sola compuerta
     public ListaPrevs Anteriores;
 
     public Compuerta(boolean ValorV){ // inicializado simple (Cuando no hay otros nodos)
-        this(ValorV, null, null, null);
+        this(ValorV, null, null, null, null);
     }
-    public Compuerta(boolean ValorV, Compuerta n, Compuerta n2, ListaPrevs p){//inicializado para cuando hay mas nodos
+    public Compuerta(boolean ValorV, Compuerta n, Compuerta n2, ListaPrevs p, Compuerta p2){//inicializado para cuando hay mas nodos
 
         DataS = ValorV;
         next = n;
         Anteriores = p;
         next2 = n2;
+        prev = p2;
 
     }
 

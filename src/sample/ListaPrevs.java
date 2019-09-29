@@ -10,7 +10,7 @@ public class ListaPrevs {//Lista de compuertas previas (hecho para cuando se tie
     }
     public void add(boolean Data){ // método para añadir elementos (entradas) a la lista
 
-        head = new Compuerta(Data, null, head, null); //Se crea una nueva compuerta como cabeza de lista y se le asigna su valor
+        head = new Compuerta(Data, null, head, null, null); //Se crea una nueva compuerta como cabeza de lista y se le asigna su valor
 
         if(tail==null){
             tail = head;
