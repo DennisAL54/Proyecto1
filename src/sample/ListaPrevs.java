@@ -12,7 +12,7 @@ public class ListaPrevs {//Lista de compuertas previas (hecho para cuando se tie
 
         head = new Compuerta(Data, null, head, null, null); //Se crea una nueva compuerta como cabeza de lista y se le asigna su valor
 
-        if(tail==null){
+        if(tail==null){//Revisa si el fin esta nulo
             tail = head;
 
         }

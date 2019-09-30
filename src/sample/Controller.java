@@ -78,7 +78,7 @@ public class Controller{ // Clase controller (encargada de manejaer el fxml con 
             new EventHandler<MouseEvent>() {
 
                 @Override
-                public void handle(MouseEvent t) {
+                public void handle(MouseEvent t) { //metodo para agarrar
                     orgSceneX = t.getSceneX();
                     orgSceneY = t.getSceneY();
                     orgTranslateX = ((ImageView)(t.getSource())).getTranslateX();
@@ -89,7 +89,7 @@ public class Controller{ // Clase controller (encargada de manejaer el fxml con 
             new EventHandler<MouseEvent>() {
 
                 @Override
-                public void handle(MouseEvent t) {
+                public void handle(MouseEvent t) { // metodo para arrastrar
                     double offsetX = t.getSceneX() - orgSceneX;
                     double offsetY = t.getSceneY() - orgSceneY;
                     double newTranslateX = orgTranslateX + offsetX;

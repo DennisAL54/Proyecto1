@@ -13,11 +13,11 @@ public class Compuerta { //Creación de la clase compuerta como un nodo
     }
     public Compuerta(boolean ValorV, Compuerta n, Compuerta n2, ListaPrevs p, Compuerta p2){//inicializado para cuando hay mas nodos
 
-        DataS = ValorV;
-        next = n;
-        Anteriores = p;
-        next2 = n2;
-        prev = p2;
+        DataS = ValorV; //Valor de verdad de cada compuerta
+        next = n;// Nodo o compuerta siguiente
+        Anteriores = p; // Lista de elementos anteriores
+        next2 = n2;// nodo next2
+        prev = p2; // nodo prev 2
 
     }
 
