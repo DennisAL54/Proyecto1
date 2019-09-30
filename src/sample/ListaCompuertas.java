@@ -12,12 +12,12 @@ public class ListaCompuertas { // Clase de la lista de compuertas
     public boolean vacio(){ // Boolean que comprueba si la lista esta vacia
         return head==null;
     }
-    public void AñadirFinal(boolean d){ // metodo para añadir al final
+    public void AddFinal(boolean d){ // metodo para Agregar al final
 
         String comp;
         comp = JOptionPane.showInputDialog("Especifique Compuerta:"); //joptionpane que pide el tipo de compuerta
         switch(comp){ // Switch para los diferentes tipos de compuerta
-            case "Compuerta":{ // Añadir una compuerta generica
+            case "Compuerta":{ // Agregar una compuerta generica
 
                 if(!vacio()){
                     ListaPrevs listaprevs = new ListaPrevs();
@@ -32,7 +32,7 @@ public class ListaCompuertas { // Clase de la lista de compuertas
                 break;
 
             }
-            case "And":{ // Añade compuerta And
+            case "And":{ // Agrega compuerta And
                 if(!vacio()){
                     ListaPrevs listaprevs = new ListaPrevs();
                     listaprevs.add(tail.DataS);
@@ -45,7 +45,7 @@ public class ListaCompuertas { // Clase de la lista de compuertas
                 }
                 break;
             }
-            case "Or":{ //Añade compuerta Or
+            case "Or":{ //Agrega compuerta Or
                 if(!vacio()){
                     ListaPrevs listaprevs = new ListaPrevs();
                     listaprevs.add(tail.DataS);
@@ -58,7 +58,7 @@ public class ListaCompuertas { // Clase de la lista de compuertas
                 }
                 break;
             }
-            case "Not":{ // Añade compuerta not
+            case "Not":{ // Agrega compuerta not
                 if(!vacio()){
                     tail = new NOT(d, null,null, null, tail);
                     tail.prev.next = tail;
@@ -69,7 +69,7 @@ public class ListaCompuertas { // Clase de la lista de compuertas
                 }
                 break;
             }
-            case "Xnor":{ // Añade compuerta Xnor
+            case "Xnor":{ // Agrega compuerta Xnor
                 if(!vacio()){
                     ListaPrevs listaprevs = new ListaPrevs();
                     listaprevs.add(tail.DataS);
@@ -82,7 +82,7 @@ public class ListaCompuertas { // Clase de la lista de compuertas
                 }
                 break;
             }
-            case "Xor":{ //Añade compuerta Xor
+            case "Xor":{ //Agrega compuerta Xor
                 if(!vacio()){
                     ListaPrevs listaprevs = new ListaPrevs();
                     listaprevs.add(tail.DataS);
@@ -97,11 +97,11 @@ public class ListaCompuertas { // Clase de la lista de compuertas
             }
         }
     }
-    public void AñadirInicio(boolean d){ //Metodo para añadir al inicio de la lista
+    public void AddInicio(boolean d){ //Metodo para agregar al inicio de la lista
         String comp;
         comp = JOptionPane.showInputDialog("Especifique Compuerta:"); //joptionpane que pide el tipo de compuerta
         switch(comp){ //switch para cambiar los casos
-            case "Compuerta":{ //Añade una compuerta generica al inicio
+            case "Compuerta":{ //agrega una compuerta generica al inicio
                 if(!vacio()){
                     ListaPrevs listaprevs = new ListaPrevs();
                     head = new Compuerta(d, head,null, listaprevs, null);
@@ -114,7 +114,7 @@ public class ListaCompuertas { // Clase de la lista de compuertas
                 break;
 
             }
-            case "And":{ //Añade una compuerta And al inicio
+            case "And":{ //Agrega una compuerta And al inicio
                 if(!vacio()){
                     ListaPrevs listaprevs = new ListaPrevs();
                     head = new AND(d, head,null, listaprevs, null);
@@ -138,7 +138,7 @@ public class ListaCompuertas { // Clase de la lista de compuertas
                 }
                 break;
             }
-            case "Not":{ //Añade una compuerta Not al inicio
+            case "Not":{ //Agrega una compuerta Not al inicio
                 if(!vacio()){
                     head = new NOT(d, head,null, null, null);
                     head.next.prev = head;
@@ -149,7 +149,7 @@ public class ListaCompuertas { // Clase de la lista de compuertas
                 }
                 break;
             }
-            case "Xnor":{ //Añade una compuerta xnor al inicio
+            case "Xnor":{ //Agrega una compuerta xnor al inicio
                 if(!vacio()){
                     ListaPrevs listaprevs = new ListaPrevs();
                     head = new XNOR(d, head,null, listaprevs, null);
@@ -161,7 +161,7 @@ public class ListaCompuertas { // Clase de la lista de compuertas
                 }
                 break;
             }
-            case "Xor":{ //Añade una compuerta xor al inicio
+            case "Xor":{ //Agrega una compuerta xor al inicio
                 if(!vacio()){
                     ListaPrevs listaprevs = new ListaPrevs();
                     head = new XOR(d, head,null, listaprevs, null);

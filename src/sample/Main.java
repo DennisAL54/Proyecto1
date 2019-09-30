@@ -1,5 +1,4 @@
 package sample;
-
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -24,14 +23,14 @@ public class Main extends Application { //Clase main con su respectivo metodo
 
     public static void main(String[] args) {//metodo main, contiene un caso de prueba para la lista (Esta comentado)
         launch(args);
-        /*ListaCompuertas lista = new ListaCompuertas();
-        lista.AñadirFinal(true);
-        lista.AñadirFinal(true);
-        lista.AñadirFinal(false);
-        lista.AñadirFinal(true);
-        lista.AñadirFinal(false);
-        lista.AñadirFinal(false);
-        lista.MostrarLista();*/
+        ListaCompuertas lista = new ListaCompuertas();
+        lista.AddFinal(true);
+        lista.AddFinal(true);
+        lista.AddFinal(false);
+        lista.AddFinal(true);
+        lista.AddFinal(false);
+        lista.AddFinal(false);
+        lista.MostrarLista();
 
     }
 }
